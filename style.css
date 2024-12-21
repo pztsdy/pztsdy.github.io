@@ -1,0 +1,42 @@
+p.dh{
+    color: rgb(156, 156, 156);
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 7px solid rgb(24, 170, 219);
+    font-size: 3em;
+    text-shadow: 8px;
+}
+
+header {
+    background-color: azure;
+}
+
+body {
+    background-color: rgb(207, 225, 241);
+    background-size: auto;
+}
+
+nav {
+    background-color: azure;
+    max-width: 8cm;
+}
+
+ul.prime {
+    color: gainsboro;
+}
+
+a.prime {
+    color: rgba(144, 144, 144, 0.922);
+    text-decoration: none;
+    border-bottom-color: lightgray;
+    border-bottom-width: 3px;
+    border-bottom-style: groove;
+}
+
+input {
+    color: rgb(156, 156, 156);
+}

@@ -1,11 +1,15 @@
-p.dh{
+html {
+    background-image: url(image/treelight.jpg);
+}
+
+p.dh {
     color: rgb(156, 156, 156);
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h1 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-bottom: 7px solid rgb(24, 170, 219);
     font-size: 3em;
     text-shadow: 8px;
@@ -18,6 +22,7 @@ header {
 body {
     background-color: rgb(207, 225, 241);
     background-size: auto;
+    opacity: 0.8;
 }
 
 nav {
@@ -39,4 +44,23 @@ a.prime {
 
 input {
     color: rgb(156, 156, 156);
+}
+
+h2.blog {
+    color: rgb(128, 128, 218);
+}
+
+.BlogPage {
+    background-image: url("image/nightsky.png");
+}
+
+h3 {
+    font-family:'Microsoft JhengHei Ui', 'Microsoft JhengHei';
+    color:rgb(28, 177, 188);
+}
+
+.BlogDiv {
+    opacity: 0.6;
+    border-bottom-left-radius: 12px;
+    background-color: rgb(181, 118, 240);
 }

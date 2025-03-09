@@ -161,7 +161,7 @@ footer {
     text-align: center;
 }
 
-.btn {
+a.btn {
     background: #a0a0a0;
     color: #fff;
     padding: 10px 20px;
@@ -178,7 +178,7 @@ div.post-preview {
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 20px auto;
+    margin-bottom: 30px;
 }
 
 a.post-preview {

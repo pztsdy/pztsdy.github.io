@@ -41,6 +41,7 @@
                     <h2><a href="posts/post1.html" class="post-preview">个人博客创建完成！</a></h2>
                     <p>这是Piaoztsdy的个人博客！</p>
                     <a href="posts/post1.html" class="btn">Read More</a>
+                    <div style="margin-top: 10px;"></div>
                 </div>
             </div>
         </div>
@@ -48,12 +49,29 @@
     <footer>
         <div class="container">
             <div class="back-to-top">
-                <a href="#banner" class="back">Back to Top</a>
+            <a href="#banner" class="back">Back to Top</a>
             </div>
             <div class="footer-content">
-                <p>&copy; Piaoztsdy 2025</p>
+            <p>&copy; Piaoztsdy 2025</p>
+            <p>You visited: <span id="counter">-1</span></p>
             </div>
         </div>
+        <script>
+        // 获取计数器元素
+        let counterElement = document.getElementById("counter");
+
+        // 获取或初始化计数器值
+        let counterValue = localStorage.getItem("counter") || 0;
+
+        // 将计数器值显示在页面上
+        counterElement.innerText = counterValue;
+
+        // 增加计数器值
+        counterValue++;
+
+        // 将新的计数器值保存到localStorage
+        localStorage.setItem("counter", counterValue);
+        </script>
     </footer>
 </body>
 

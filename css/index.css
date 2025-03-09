@@ -161,6 +161,15 @@ footer {
     text-align: center;
 }
 
+a.link {
+    color: #828282;
+    text-decoration: none;
+}
+
+a.link:hover {
+    color: #e8491d;
+}
+
 a.btn {
     background: #a0a0a0;
     color: #fff;

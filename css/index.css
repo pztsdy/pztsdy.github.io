@@ -161,6 +161,36 @@ footer {
     text-align: center;
 }
 
+.btn {
+    background: #e8491d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+div.post-preview {
+    background: #cccccc8b;
+    color: #333;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+a.post-preview {
+    color: #333;
+    text-decoration: none;
+}
+
+a.back {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 8px;
+    background-color: #ddd;
+}
+
 /* Media Queries */
 @media(max-width: 768px) {
     header #branding,

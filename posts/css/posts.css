@@ -1,0 +1,154 @@
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px;
+}
+
+header {
+    background: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #eee 1px solid;
+}
+
+header a {
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #e8491d;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.post {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #0056b3;
+}
+
+.post-date {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.post-content {
+    font-size: 1.1em;
+}
+
+.post-content p {
+    margin-bottom: 15px;
+}
+
+.post-content h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #0056b3;
+}
+
+.post-content h3 {
+    font-size: 1.5em;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #0056b3;
+}
+
+.post-content ul, .post-content ol {
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.post-content li {
+    margin-bottom: 8px;
+}
+
+.post-content a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.post-content a:hover {
+    text-decoration: underline;
+}
+
+/* Code blocks */
+.post-content pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.post-content code {
+    font-family: monospace;
+    font-size: 0.9em;
+    color: #222;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #9e9e9ecf;
+    text-align: center;
+}
+
+a.back {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 8px;
+    background-color: #ddd;
+}
